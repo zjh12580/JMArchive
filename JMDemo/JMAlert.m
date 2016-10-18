@@ -8,6 +8,7 @@
 
 #import "JMAlert.h"
 #import "UIColor+Hex.h"
+#import <objc/runtime.h>
 
 #define ALERTVIEW_WIDTH  290
 #define TOP_SPACE     7
@@ -302,6 +303,9 @@
 
 @implementation JMAlertController
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+   //拦截事件
+}
 -(void)viewDidLoad{
     [super viewDidLoad];
     
