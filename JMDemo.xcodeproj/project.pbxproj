@@ -17,6 +17,7 @@
 		8B393F511DB5F3B800A9CBF3 /* JMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B393F4D1DB5F3B800A9CBF3 /* JMAlert.m */; };
 		8B393F521DB5F3B800A9CBF3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B393F501DB5F3B800A9CBF3 /* UIColor+Hex.m */; };
 		8B393F551DB5F41C00A9CBF3 /* JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B393F541DB5F41C00A9CBF3 /* JMModel.m */; };
+		8B393F591DB6051900A9CBF3 /* NSObject+jm_dicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B393F581DB6051900A9CBF3 /* NSObject+jm_dicModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		8B393F501DB5F3B800A9CBF3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		8B393F531DB5F41C00A9CBF3 /* JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMModel.h; sourceTree = "<group>"; };
 		8B393F541DB5F41C00A9CBF3 /* JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMModel.m; sourceTree = "<group>"; };
+		8B393F571DB6051900A9CBF3 /* NSObject+jm_dicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+jm_dicModel.h"; sourceTree = "<group>"; };
+		8B393F581DB6051900A9CBF3 /* NSObject+jm_dicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+jm_dicModel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 			children = (
 				8B393F4B1DB5F37700A9CBF3 /* 弹窗 */,
 				8B393F4A1DB5F36300A9CBF3 /* 归档 */,
+				8B393F561DB604B800A9CBF3 /* 字典转模型 */,
 				8B393F331DB5F24A00A9CBF3 /* AppDelegate.h */,
 				8B393F341DB5F24A00A9CBF3 /* AppDelegate.m */,
 				8B393F361DB5F24A00A9CBF3 /* ViewController.h */,
@@ -121,6 +125,15 @@
 				8B393F501DB5F3B800A9CBF3 /* UIColor+Hex.m */,
 			);
 			path = "UIColor+HEX";
+			sourceTree = "<group>";
+		};
+		8B393F561DB604B800A9CBF3 /* 字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				8B393F571DB6051900A9CBF3 /* NSObject+jm_dicModel.h */,
+				8B393F581DB6051900A9CBF3 /* NSObject+jm_dicModel.m */,
+			);
+			name = "字典转模型";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +211,7 @@
 				8B393F381DB5F24A00A9CBF3 /* ViewController.m in Sources */,
 				8B393F521DB5F3B800A9CBF3 /* UIColor+Hex.m in Sources */,
 				8B393F351DB5F24A00A9CBF3 /* AppDelegate.m in Sources */,
+				8B393F591DB6051900A9CBF3 /* NSObject+jm_dicModel.m in Sources */,
 				8B393F321DB5F24A00A9CBF3 /* main.m in Sources */,
 				8B393F511DB5F3B800A9CBF3 /* JMAlert.m in Sources */,
 				8B393F491DB5F25500A9CBF3 /* NSObject+JMArchive.m in Sources */,
@@ -360,6 +374,7 @@
 				8B393F461DB5F24A00A9CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
